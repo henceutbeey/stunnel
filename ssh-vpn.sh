@@ -15,13 +15,13 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=www.vpnstores.net
-organizationalunit=www.vpnstores.net
-commonname=www.vpnstores.net
-email=admin@vpnstores.net
+organization=www.sshaxor.my.id
+organizationalunit=www.sshaxor.my.id
+commonname=www.sshaxor.my.id
+email=admin@sshaxor.my.id
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/stunnel478/stunnel/main/password"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/henceutbeey/stunnel/main/password"
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -88,9 +88,9 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/stunnel478/stunnel/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/henceutbeey/stunnel/main/nginx.conf"
 mkdir -p /home/vps/public_html
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/stunnel478/stunnel/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/henceutbeey/stunnel/main/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn

@@ -11,7 +11,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.co);
-IZIN=$( curl http://vip-sg1.myvpskuy.xyz:81/BskaoahdmsoahamoaJNlapabsmal | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Deadrz/vps/master/ipvps.txt | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else

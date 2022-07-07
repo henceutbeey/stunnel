@@ -16,7 +16,7 @@ date
 mkdir -p /etc/trojan/
 touch /etc/trojan/akun.conf
 # install v2ray
-wget https://raw.githubusercontent.com/stunnel478/stunnel/main/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/henceutbeey/stunnel/main/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 cd /root/
@@ -495,19 +495,19 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O add-ws "https://raw.githubusercontent.com/stunnel478/stunnel/main/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/stunnel478/stunnel/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/stunnel478/stunnel/main/add-tr.sh"
-wget -O del-ws "https://raw.githubusercontent.com/stunnel478/stunnel/main/del-ws.sh"
-wget -O del-vless "https://raw.githubusercontent.com/stunnel478/stunnel/main/del-vless.sh"
-wget -O del-tr "https://raw.githubusercontent.com/stunnel478/stunnel/main/del-tr.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/stunnel478/stunnel/main/cek-ws.sh"
-wget -O cek-vless "https://raw.githubusercontent.com/stunnel478/stunnel/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/stunnel478/stunnel/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/stunnel478/stunnel/main/renew-ws.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/stunnel478/stunnel/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/stunnel478/stunnel/main/renew-tr.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/stunnel478/stunnel/main/cert.sh"
+wget -O add-ws "https://raw.githubusercontent.com/henceutbeey/stunnel/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/henceutbeey/stunnel/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/henceutbeey/stunnel/main/add-tr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/henceutbeey/stunnel/main/del-ws.sh"
+wget -O del-vless "https://raw.githubusercontent.com/henceutbeey/stunnel/main/del-vless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/henceutbeey/stunnel/main/del-tr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/henceutbeey/stunnel/main/cek-ws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/henceutbeey/stunnel/main/cek-vless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/henceutbeey/stunnel/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/henceutbeey/stunnel/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/henceutbeey/stunnel/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/henceutbeey/stunnel/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/henceutbeey/stunnel/main/cert.sh"
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr
