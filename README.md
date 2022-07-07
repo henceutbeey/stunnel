@@ -1,0 +1,5 @@
+SSHAXOR AUTO SCRIPT PREMIUM
+ORDER ?
+
+KONTAK : wa.me/+6281385351530
+WEB : https://panel.sshaxor.my.id
